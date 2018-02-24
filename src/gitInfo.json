@@ -1,0 +1,59 @@
+{
+	"header": "Git Guide",
+	"subHeader": "Commands",
+	"commands": [
+		{
+			"command": "git",
+			"commandDisplay": "Git",
+			"description": [
+				"Using <command> will show you all commands that are available in Git."
+			]
+		},
+		{
+			"command": "git init",
+			"commandDisplay": "Init",
+			"description": [
+				"Using <command> will create an empty git repository or reinitialize an existing one."
+			],
+			"important": [
+				"This is a one time use per repository."
+			]
+		},
+		{
+			"command": "git clone <repository>",
+			"commandDisplay": "Clone",
+			"description": [
+				"Using <command> will clone a repository into a new directory.",
+				"This command makes copy's of all files in the targeted directory."
+			],
+			"important": [
+				"This is a one time use per repository."
+			]
+		},
+		{
+			"command": "git branch",
+			"commandDisplay": "Branch",
+			"description": [
+				"Using <command> will give you a list of all current branches of the repository you are in."
+			]
+		},
+		{
+			"command": "git checkout <branch>",
+			"commandDisplay": "Checkout",
+			"description": [
+				"Using <command> will switch the branch you are currently on."
+			],
+			"options": [
+				{
+					"flag": "-b",
+					"command": "git checkout -b <branch>",
+					"description": [
+						"Will create the specified branch and will switch to that branch.",
+						"Example: <command> "
+					]
+				}
+			]
+		}
+
+	]
+}

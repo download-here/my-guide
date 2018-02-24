@@ -1,0 +1,17 @@
+{
+	"summary": "Contact Information",
+	"details": [
+		{
+			"info": "Name",
+			"content": "Brian Nunez"
+		},
+		{
+			"info": "Phone Number",
+			"content": "N/A"
+		},
+		{
+			"info": "Email",
+			"content": "briannunez1130gmail.com"
+		}
+	]
+}

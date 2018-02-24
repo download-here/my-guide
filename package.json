@@ -1,0 +1,27 @@
+{
+  "name": "guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browser-router": "^0.2.0",
+    "json-loader": "^0.5.7",
+    "json-parse": "^1.0.3",
+    "load-json-file": "^4.0.0",
+    "react": "^16.2.0",
+    "react-browser-router": "^2.1.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.1",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
